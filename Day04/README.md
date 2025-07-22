@@ -1,7 +1,7 @@
 # Day04
 
 ## 📄 Python Files
-- `task.py`
+- `main.py`
 
 ## 📝 Notes
-- Solved the main task: `task.py`.
+- Included utility or support file: `main.py`.
