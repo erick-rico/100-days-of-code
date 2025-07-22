@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+env/
+
+# Configuración de editores
+.idea/
+.vscode/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos específicos del curso o entorno
+task-info*
+task-remote-info*
