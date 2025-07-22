@@ -6,4 +6,4 @@
 
 ## 📝 Notes
 - Included utility or support file: `art.py`.
-- Included utility or support file: `main.py`.
+- Solved the main task: `main.py`.

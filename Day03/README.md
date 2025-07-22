@@ -5,5 +5,5 @@
 - `main.py`
 
 ## 📝 Notes
-- Included utility or support file: `main.py`.
-- Included utility or support file: `main.py`.
+- Solved the main task: `main.py`.
+- Solved the main task: `main.py`.

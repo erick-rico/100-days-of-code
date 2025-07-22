@@ -10,7 +10,7 @@
 - `my_reeborg_right.py`
 
 ## 📝 Notes
-- Included utility or support file: `main.py`.
+- Solved the main task: `main.py`.
 - Created an extra version or experiment: `my_reeborg_hurdle1.py`.
 - Created an extra version or experiment: `my_reeborg_hurdle2.py`.
 - Created an extra version or experiment: `my_reeborg_hurdle3.py`.

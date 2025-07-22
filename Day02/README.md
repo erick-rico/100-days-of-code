@@ -4,4 +4,4 @@
 - `main.py`
 
 ## 📝 Notes
-- Included utility or support file: `main.py`.
+- Solved the main task: `main.py`.

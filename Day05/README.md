@@ -5,5 +5,5 @@
 - `my_hardversion.py`
 
 ## 📝 Notes
-- Included utility or support file: `main.py`.
+- Solved the main task: `main.py`.
 - Created an extra version or experiment: `my_hardversion.py`.

@@ -430,8 +430,8 @@
 - Included utility or support file: `cmdoptions.py`.
 - Included utility or support file: `command_context.py`.
 - Included utility or support file: `index_command.py`.
-- Included utility or support file: `main.py`.
-- Included utility or support file: `main_parser.py`.
+- Solved the main task: `main.py`.
+- Solved the main task: `main_parser.py`.
 - Included utility or support file: `parser.py`.
 - Included utility or support file: `progress_bars.py`.
 - Included utility or support file: `req_command.py`.
@@ -471,7 +471,7 @@
 - Included utility or support file: `_distutils.py`.
 - Included utility or support file: `_sysconfig.py`.
 - Included utility or support file: `base.py`.
-- Included utility or support file: `main.py`.
+- Solved the main task: `main.py`.
 - Included utility or support file: `__init__.py`.
 - Included utility or support file: `_json.py`.
 - Included utility or support file: `base.py`.
@@ -830,4 +830,4 @@
 - Included utility or support file: `url.py`.
 - Included utility or support file: `wait.py`.
 - Included utility or support file: `activate_this.py`.
-- Included utility or support file: `main.py`.
+- Solved the main task: `main.py`.
