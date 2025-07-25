@@ -5,5 +5,5 @@
 - `my_hardversion.py`
 
 ## 📝 Notes
-- Solved the main task: `main.py`.
+- Solved the final project of the day: `main.py`.
 - Created an extra version or experiment: `my_hardversion.py`.

@@ -8,7 +8,7 @@
 - `my_debugging_odd_even.py`
 
 ## 📝 Notes
-- Solved the main task: `main.py`.
+- Solved the final project of the day: `main.py`.
 - Included utility or support file: `maths.py`.
 - Created an extra version or experiment: `my_debugging_fizzbuzz.py`.
 - Created an extra version or experiment: `my_debugging_leapyear.py`.

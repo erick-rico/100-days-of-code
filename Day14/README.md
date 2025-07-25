@@ -8,4 +8,4 @@
 ## 📝 Notes
 - Included utility or support file: `art.py`.
 - Included utility or support file: `game_data.py`.
-- Solved the main task: `main.py`.
+- Solved the final project of the day: `main.py`.

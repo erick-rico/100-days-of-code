@@ -5,5 +5,5 @@
 - `main.py`
 
 ## 📝 Notes
-- Solved the main task: `main.py`.
-- Solved the main task: `main.py`.
+- Solved the final project of the day: `main.py`.
+- Solved the final project of the day: `main.py`.

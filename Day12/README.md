@@ -10,7 +10,7 @@
 
 ## 📝 Notes
 - Included utility or support file: `art.py`.
-- Solved the main task: `main.py`.
+- Solved the final project of the day: `main.py`.
 - Created an extra version or experiment: `my_areas_and_perimeters.py`.
 - Created an extra version or experiment: `my_battle.py`.
 - Created an extra version or experiment: `my_draft.py`.

@@ -11,7 +11,7 @@
 - `my_reeborg_right.py`
 
 ## 📝 Notes
-- Solved the main task: `main.py`.
+- Solved the final project of the day: `main.py`.
 - Created an extra version or experiment: `my_reeborg_debugged.py`.
 - Created an extra version or experiment: `my_reeborg_hurdle1.py`.
 - Created an extra version or experiment: `my_reeborg_hurdle2.py`.

@@ -8,6 +8,6 @@
 
 ## 📝 Notes
 - Included utility or support file: `coffee_maker.py`.
-- Solved the main task: `main.py`.
+- Solved the final project of the day: `main.py`.
 - Included utility or support file: `menu.py`.
 - Included utility or support file: `money_machine.py`.

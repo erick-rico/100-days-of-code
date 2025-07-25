@@ -25,7 +25,9 @@ def generate_readme_for_day(day_path):
         # Asegúrate de usar solo el nombre del archivo para la lógica de las notas
         base_filename = os.path.basename(file)
         if base_filename.startswith("main"):
-            note = f"- Solved the main task: `{base_filename}`."
+            note = f"- Solved the final project of the day: `{base_filename}`."
+        elif base_filename.startswith("task"):
+            note = f"- Solved a mini challenge of the day: `{base_filename}`."
         elif base_filename.startswith("my"):
             note = f"- Created an extra version or experiment: `{base_filename}`."
         else:
