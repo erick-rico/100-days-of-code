@@ -2,8 +2,8 @@
 
 ## 📄 Python Files
 - `art.py`
-- `main.py`
+- `capstone-main.py`
 
 ## 📝 Notes
 - Included utility or support file: `art.py`.
-- Solved the final project of the day: `main.py`.
+- Solved one of the capstone projects of the course: `capstone-main.py`.

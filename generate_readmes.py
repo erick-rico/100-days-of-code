@@ -28,6 +28,8 @@ def generate_readme_for_day(day_path):
             note = f"- Solved the final project of the day: `{base_filename}`."
         elif base_filename.startswith("task"):
             note = f"- Solved a mini challenge of the day: `{base_filename}`."
+        elif base_filename.startswith("capstone"):
+            note = f"- Solved one of the capstone projects of the course: `{base_filename}`."
         elif base_filename.startswith("my"):
             note = f"- Created an extra version or experiment: `{base_filename}`."
         else:
