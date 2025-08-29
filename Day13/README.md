@@ -13,3 +13,6 @@
 - Created an extra version or experiment: `my_debugging_fizzbuzz.py`.
 - Created an extra version or experiment: `my_debugging_leapyear.py`.
 - Created an extra version or experiment: `my_debugging_odd_even.py`.
+- Included utility or support file: `maths.cpython-313.pyc`.
+- Solved a mini challenge of the day: `task-info.yaml`.
+- Solved a mini challenge of the day: `task-remote-info.yaml`.

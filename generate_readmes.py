@@ -3,26 +3,44 @@ import os
 def generate_readme_for_day(day_path):
     day_name = os.path.basename(day_path)
     py_files = []
-    # Usar os.walk para recorrer todas las subcarpetas
+    ipynb_files = []
+    other_files = []
+
+    # Recorrer todas las subcarpetas
     for root, _, files in os.walk(day_path):
         for file in files:
+            relative_path = os.path.relpath(os.path.join(root, file), day_path)
             if file.endswith('.py'):
-                # Almacena la ruta relativa del archivo para que el README sea más claro
-                relative_path = os.path.relpath(os.path.join(root, file), day_path)
                 py_files.append(relative_path)
-    
-    # Ordenar los archivos para una salida consistente
-    py_files.sort() 
+            elif file.endswith('.ipynb'):
+                ipynb_files.append(relative_path)
+            elif not file.endswith('.md'):  # evita meter el README mismo
+                other_files.append(relative_path)
 
-    readme_lines = [f"# {day_name}\n", "## 📄 Python Files"]
-    for file in py_files:
-        # Asegúrate de que el formato sea legible, usando el nombre del archivo o la ruta si es necesario
-        display_name = os.path.basename(file) # Puedes usar 'file' completo si prefieres la ruta relativa
-        readme_lines.append(f"- `{display_name}`") # O f"- `{file}`" si quieres la ruta completa
+    # Ordenar listas
+    py_files.sort()
+    ipynb_files.sort()
+    other_files.sort()
 
+    readme_lines = [f"# {day_name}\n"]
+
+    # Sección Python Files
+    if py_files:
+        readme_lines.append("## 📄 Python Files")
+        for file in py_files:
+            display_name = os.path.basename(file)
+            readme_lines.append(f"- `{display_name}`")
+
+    # Sección Notebook Files
+    if ipynb_files:
+        readme_lines.append("\n## 📓 Notebook Files")
+        for file in ipynb_files:
+            display_name = os.path.basename(file)
+            readme_lines.append(f"- `{display_name}`")
+
+    # Notas para Python y Notebooks
     readme_lines.append("\n## 📝 Notes")
-    for file in py_files:
-        # Asegúrate de usar solo el nombre del archivo para la lógica de las notas
+    for file in py_files + ipynb_files + other_files:
         base_filename = os.path.basename(file)
         if base_filename.startswith("main"):
             note = f"- Solved the final project of the day: `{base_filename}`."

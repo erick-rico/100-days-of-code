@@ -15,3 +15,4 @@
 - Solved a mini challenge of the day: `task-3.py`.
 - Solved a mini challenge of the day: `task-4.py`.
 - Solved a mini challenge of the day: `task-5.py`.
+- Included utility or support file: `image.jpg`.

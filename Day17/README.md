@@ -13,3 +13,6 @@
 - Included utility or support file: `question_model.py`.
 - Included utility or support file: `quiz_brain.py`.
 - Solved a mini challenge of the day: `task.py`.
+- Included utility or support file: `data.cpython-313.pyc`.
+- Included utility or support file: `question_model.cpython-313.pyc`.
+- Included utility or support file: `quiz_brain.cpython-313.pyc`.

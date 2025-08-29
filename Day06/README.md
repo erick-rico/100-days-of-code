@@ -19,3 +19,5 @@
 - Created an extra version or experiment: `my_reeborg_hurdle4.py`.
 - Created an extra version or experiment: `my_reeborg_maze.py`.
 - Created an extra version or experiment: `my_reeborg_right.py`.
+- Solved a mini challenge of the day: `task-info.yaml`.
+- Solved a mini challenge of the day: `task-remote-info.yaml`.
